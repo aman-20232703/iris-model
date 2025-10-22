@@ -160,7 +160,7 @@ Our computer is as good as (or better than) human experts!
 **What to look for:** Do the colors separate nicely? (They should!)
 
 ### 2. Box Plots
-<img width="2170" height="1947" alt="iris_boxplots" src="https://github.com/user-attachments/assets/0456d0f5-687d-4650-b1cf-544b02acdef3" />
+<img width="1170" height="1147" alt="iris_boxplots" src="https://github.com/user-attachments/assets/0456d0f5-687d-4650-b1cf-544b02acdef3" />
 
 **What it shows:** The range of measurements for each flower type
 
