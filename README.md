@@ -54,10 +54,10 @@ Features: 4 measurements per flower
 Quality: Perfect! (No missing data)
 
 ### Example flower:
-  - Sepal Length: 5.1 cm
-  - Sepal Width:  3.5 cm
-  - Petal Length: 1.4 cm  ← Small petal!
-  - Petal Width:  0.2 cm  ← Small petal!
+   Sepal Length: 5.1 cm
+   Sepal Width:  3.5 cm
+   Petal Length: 1.4 cm  ← Small petal!
+   Petal Width:  0.2 cm  ← Small petal!
 → This is a Setosa! 🌸
 
 ## 🚀 Quick Start (5 Easy Steps)
