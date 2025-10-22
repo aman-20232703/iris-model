@@ -146,18 +146,22 @@ Our computer is as good as (or better than) human experts!
 ### 1. Feature Distributions
 Show Image
 **What it shows:** How measurements differ between flower types
+
 **What to look for:** Do the colors separate nicely? (They should!)
 ### 2. Box Plots
 Show Image
 **What it shows:** The range of measurements for each flower type
+
 **What to look for:** Are the boxes at different heights? (Good separation!)
 ### 3. Correlation Heatmap
 Show Image
 **What it shows:** Which measurements are related to each other
+
 **What to look for:** Bright colors = strongly related
 ### 4. Confusion Matrix
 Show Image
 **What it shows:** How many flowers we got right vs wrong
+
 **What to look for:** Big numbers on the diagonal = good! (All correct predictions)
 
 ## 🧠 The 5 Methods We Tested
@@ -255,9 +259,10 @@ model = SVC(kernel='rbf', C=10, gamma='scale')
 - Measuring petals gives you **86% of the information** you need!
 
 
-💡 Real-World Examples
-Example 1: Identifying a New Flower
-python# You found a flower with these measurements:
+### 💡 Real-World Examples
+#### Example 1: Identifying a New Flower
+```python
+# You found a flower with these measurements:
 sepal_length = 5.1 cm
 sepal_width = 3.5 cm
 petal_length = 1.4 cm  ← Small petal!
@@ -265,136 +270,148 @@ petal_width = 0.2 cm   ← Small petal!
 
 # Computer says:
 → This is Setosa! (100% confidence) 🌸
-Example 2: Borderline Case
-python# This flower is tricky:
+```
+#### Example 2: Borderline Case
+```python
+# This flower is tricky:
 petal_length = 4.9 cm  ← Between medium and large
 petal_width = 1.7 cm   ← Right on the edge
 
 # Computer says:
 → Probably Versicolor (65% confidence) 🌺
 → Could be Virginica (35% confidence) 🌻
-
-📚 Step-by-Step: What the Code Does
-Step 1: Load the Data 📥
-python# The computer loads 150 flower measurements
+```
+### 📚 Step-by-Step: What the Code Does
+#### Step 1: Load the Data 📥
+```python
+# The computer loads 150 flower measurements
 # 50 Setosa + 50 Versicolor + 50 Virginica = 150 total
-Step 2: Look at the Data 👀
-python# Create colorful charts
+```
+#### Step 2: Look at the Data 👀
+```python
+# Create colorful charts
 # See patterns in the measurements
 # Notice that petals are most important
-Step 3: Prepare the Data 🔧
-python# Split into training (120 flowers) and testing (30 flowers)
+```
+#### Step 3: Prepare the Data 🔧
+```python
+# Split into training (120 flowers) and testing (30 flowers)
 # Standardize measurements (make them comparable)
-Step 4: Train the Computer 🧠
-python# Show the computer 120 flowers with labels
+```
+#### Step 4: Train the Computer 🧠
+```python
+# Show the computer 120 flowers with labels
 # It learns: "Small petal = Setosa"
 # It learns: "Medium petal = Versicolor"
 # It learns: "Large petal = Virginica"
-Step 5: Test the Computer 🧪
-python# Show 30 NEW flowers (computer hasn't seen these!)
+```
+#### Step 5: Test the Computer 🧪
+```python
+# Show 30 NEW flowers (computer hasn't seen these!)
 # Computer tries to identify them
 # We check if it's correct
-Step 6: Check Accuracy ✅
-python# Count correct predictions
+```
+#### Step 6: Check Accuracy ✅
+```python
+# Count correct predictions
 # Our result: 30 out of 30 correct = 100%!
-Step 7: Save Results 💾
-python# Create report
+```
+#### Step 7: Save Results 💾
+```python
+# Create report
 # Save visualizations
 # Save trained model for future use
-
-🎯 Common Questions (FAQ)
-Q1: "I'm a complete beginner. Can I do this?"
+```
+### Common Questions (FAQ)
+ **Q1: "I'm a complete beginner. Can I do this?"**
 A: YES! This project is designed for beginners. Just follow the steps in order.
-Q2: "Why is the accuracy so high (100%)?"
+**Q2: "Why is the accuracy so high (100%)?"**
 A: The iris flowers are very different from each other, making them easy to identify. Think of it like identifying cats vs dogs vs birds - they're quite different!
-Q3: "How long does it take to run?"
+**Q3: "How long does it take to run?"**
 A: About 2-3 minutes on any computer.
-Q4: "Do I need a powerful computer?"
+**Q4: "Do I need a powerful computer?"**
 A: No! This works on any laptop or desktop. Even old computers work fine.
-Q5: "What if I get errors?"
+**Q5: "What if I get errors?"**
 A: Check these:
+* Python 3.8 or higher installed? (python --version)
+* All packages installed? (pip install -r requirements.txt)
+* Files in correct folders?
+* Running from project folder?
 
-✅ Python 3.8 or higher installed? (python --version)
-✅ All packages installed? (pip install -r requirements.txt)
-✅ Files in correct folders?
-✅ Running from project folder?
-
-Q6: "Can I use this for other flowers?"
+**Q6: "Can I use this for other flowers?"**
 A: The code structure works for any classification problem! You'd need new data and to retrain the model.
-Q7: "Is this useful in real life?"
+**Q7: "Is this useful in real life?"**
 A: Yes! Same techniques are used for:
 
-🏥 Medical diagnosis
-📧 Email spam detection
-🎬 Movie recommendations
-🗣️ Speech recognition
-📸 Face recognition
+** Medical diagnosis
+** Email spam detection
+** Movie recommendations
+** Speech recognition
+** Face recognition
 
 
-🛠️ Troubleshooting Guide
-Problem: "Command not found: python"
-Solution: Install Python from python.org (version 3.8 or higher)
-Problem: "No module named 'sklearn'"
-Solution: Run: pip install scikit-learn
-Problem: "No visualizations folder"
-Solution: The program creates it automatically. Make sure you're in the right folder when running.
-Problem: "Accuracy is low (below 90%)"
-Solution: This shouldn't happen! Check:
+### 🛠️ Troubleshooting Guide
+**Problem: "Command not found: python"**
+**Solution:** Install Python from python.org (version 3.8 or higher)
+**Problem: "No module named 'sklearn'"**
+**Solution:** Run: pip install scikit-learn
+**Problem: "No visualizations folder"**
+**Solution:** The program creates it automatically. Make sure you're in the right folder when running.
+**Problem: "Accuracy is low (below 90%)"**
+**Solution:** This shouldn't happen! Check:
+- Using random_state=42 in code?
+- Applied feature scaling?
+- Using provided code exactly as written?
+**Problem: "Program runs but no output files"**
+**Solution:** Check permissions. Try running as administrator (Windows) or with sudo (Mac/Linux).
 
-Using random_state=42 in code?
-Applied feature scaling?
-Using provided code exactly as written?
-
-Problem: "Program runs but no output files"
-Solution: Check permissions. Try running as administrator (Windows) or with sudo (Mac/Linux).
-
-🎨 Making Sense of the Charts
-Reading the Confusion Matrix
+### Making Sense of the Charts
+#### Reading the Confusion Matrix
+```bash
            Predicted
         Set  Ver  Vir
 Actual  
 Set     10   0    0   ← All 10 Setosa correctly identified
 Ver      0  10    0   ← All 10 Versicolor correctly identified  
 Vir      0   0   10   ← All 10 Virginica correctly identified
+```
+Perfect score! No mistakes!
 
-Perfect score! No mistakes! 🎉
-If you saw this instead:
+#### If you saw this instead:
+```bash
         Set  Ver  Vir
 Set      9   1    0   ← 1 mistake: thought Setosa was Versicolor
 Ver      0   9    1   ← 1 mistake
 Vir      0   0   10
-
+```
 Still good! 28 out of 30 = 93% accuracy
 
-📈 Understanding Cross-Validation
-What is it?
-Instead of testing once, we test 5 times with different flower groups.
-Why?
-To make sure we didn't just get "lucky" once.
-Our Results:
-Test 1: 100% ✅
-Test 2: 96.7% ✅
-Test 3: 100% ✅
-Test 4: 96.7% ✅
-Test 5: 100% ✅
-
+### Understanding Cross-Validation
+**What is it?**Instead of testing once, we test 5 times with different flower groups.
+**Why?**To make sure we didn't just get "lucky" once.
+#### Our Results:
+```bash
+Test 1: 100%
+Test 2: 96.7%
+Test 3: 100%
+Test 4: 96.7% 
+Test 5: 100%
+```
 Average: 98.3% ← Very consistent!
-What this means: Our computer will work well on NEW flowers it's never seen!
+**What this means:** Our computer will work well on NEW flowers it's never seen!
 
-🚀 Next Steps After This Project
-Beginner Level:
+## Next Steps After This Project
+### Beginner Level:
+* Run the code and see it work
+* Change a few numbers and see what happens
+* Create your own test flower measurements
+* Read the generated report
 
-✅ Run the code and see it work
-✅ Change a few numbers and see what happens
-✅ Create your own test flower measurements
-✅ Read the generated report
-
-Intermediate Level:
-
-📊 Try different train/test splits (70/30, 90/10)
-🔢 Test with only 2 features instead of 4
-📈 Add more visualization types
-🧪 Test with your own dataset
+### Intermediate Level:
+- Try different train/test splits (70/30, 90/10)
+- Test with only 2 features instead of 4
+- Add more visualization types
+- Test with your own dataset
 
 Advanced Level:
 
