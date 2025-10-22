@@ -294,6 +294,46 @@ petal_width = 1.7 cm   ← Right on the edge
 → Probably Versicolor (65% confidence) 🌺
 → Could be Virginica (35% confidence) 🌻
 ```
+### Sample Prediction Example
+#### example1
+**Input Values (User Provided in Streamlit App):**
+```bash
+Feature	Value (cm)
+Sepal Length:	5.0
+Sepal Width:	3.8
+Petal Length:	1.9
+Petal Width:	0.4
+```
+**Model Output:**
+
+🪷 Predicted Flower Species: Iris Setosa
+<img width="944" height="793" alt="Screenshot 2025-10-22 145809" src="https://github.com/user-attachments/assets/cf33dec5-8bad-494d-a16b-f9841da5d90b" />
+
+#### example2
+**Input Values (User Provided in Streamlit App):**
+```bash
+Feature	Value: (cm)
+Sepal Length:	6.10
+Sepal Width:	2.83
+Petal Length:	4.05
+Petal Width:	1.32
+```
+**Model Output:**
+<img width="953" height="730" alt="Screenshot 2025-10-22 150012" src="https://github.com/user-attachments/assets/fb7c9bd3-e668-4de8-b54a-4af19b931f96" />
+
+#### example3
+**Input Values (User Provided in Streamlit App):**
+```bash
+Feature	Value: (cm)
+Sepal Length:	5.95
+Sepal Width:	3.05
+Petal Length:	5.13
+Petal Width:	1.88
+```
+**Model Output:**
+<img width="999" height="730" alt="Screenshot 2025-10-22 150133" src="https://github.com/user-attachments/assets/fac90a7c-2dff-4f49-be89-21fefe7e8de5" />
+
+
 ### 📚 Step-by-Step: What the Code Does
 #### Step 1: Load the Data 📥
 ```python
