@@ -14,6 +14,7 @@
 ## 💡 Project Overview
 This project's goal is to teach a computer to identify different types of **Iris flowers** by analyzing their physical measurements, a classic introductory task in machine learning (ML).
 
+
 It uses simple logic: if a flower has a very **small petal**, it's likely a **Setosa**; if it has a **large petal**, it's likely a **Virginica**. The computer automatically learns these patterns from examples to make predictions.
 
 ### 🎯 Key Learning Objectives
@@ -125,15 +126,16 @@ Iris-Model/
 ├── requirements.txt               # Dependencies
 └── setup_project.py               # Setup
 ```
-🎓 Understanding the Results
-Our Best Score: 100% Accuracy! 🎉
-What does this mean?
-Out of 30 test flowers, our computer correctly identified ALL 30!
+## 🎓 Understanding the Results
+### Our Best Score: 100% Accuracy! 🎉
+**What does this mean?** Out of 30 test flowers, our computer correctly identified **ALL 30!**
+```bash
 ✅ Setosa:     10 out of 10 correct (100%)
 ✅ Versicolor: 10 out of 10 correct (100%)
 ✅ Virginica:  10 out of 10 correct (100%)
-How Good is This?
-MethodHow It WorksAccuracy👀 Human ExpertLooks at flowers95-98%🤖 Our ComputerMeasures numbers100%
+```
+### How Good is This?
+<img width="794" height="136" alt="Screenshot 2025-10-22 165003" src="https://github.com/user-attachments/assets/ef6ee1ed-1b77-4f2e-b09e-3bb73fc214f2" />
 Our computer is as good as (or better than) human experts!
 
 🎨 Visualizations Explained
