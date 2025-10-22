@@ -6,7 +6,9 @@
 [![Accuracy: 100%](https://img.shields.io/badge/Accuracy-100%25-brightgreen)](#understanding-the-results)
 
 </div>
+
 ---
+
 ## Project Overview
 This project's goal is to teach a computer to identify different types of **Iris flowers** by analyzing their physical measurements, a classic introductory task in machine learning (ML).
 
