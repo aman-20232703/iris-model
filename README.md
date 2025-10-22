@@ -1,6 +1,4 @@
-<img width="999" height="730" alt="Screenshot 2025-10-22 150133" src="https://github.com/user-attachments/assets/7c876496-08d9-4dfe-b82c-10e4df375a89" /><div align="center">
-
-# 🌸 Iris Flower Classification Project 🌸
+ # 🌸 Iris Flower Classification Project 🌸
 
 **A Beginner-Friendly Machine Learning Project**
 
@@ -13,6 +11,8 @@
 
 ## Project Overview
 This project's goal is to teach a computer to identify different types of **Iris flowers** by analyzing their physical measurements, a classic introductory task in machine learning (ML).
+
+<img width="519" height="214" alt="Screenshot 2025-10-22 181428" src="https://github.com/user-attachments/assets/9a59c86e-7e2e-4440-b813-3bc193f7703f" />
 
 
 It uses simple logic: if a flower has a very **small petal**, it's likely a **Setosa**; if it has a **large petal**, it's likely a **Virginica**. The computer automatically learns these patterns from examples to make predictions.
@@ -628,7 +628,7 @@ Congratulations on completing this machine learning project!
 -  Achieved 100% accuracy
 -  Created professional visualizations
 -  Built a complete project
--  
+  
 #### Your New Skills:
 - Data analysis
 - Machine learning basics
@@ -641,7 +641,7 @@ Congratulations on completing this machine learning project!
 
 **Email:** kumaraman21062005@gmail.com
 
-**LinkedIn**: Aman Kumar
+**LinkedIn**: [Aman Kumar](https://www.linkedin.com/in/aman-kumar-2703rc?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 
 **GitHub:** github.com/aman-20232703
 
