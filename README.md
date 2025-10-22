@@ -4,7 +4,6 @@
 
 **A Beginner-Friendly Machine Learning Project**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![Accuracy: 100%](https://img.shields.io/badge/Accuracy-100%25-brightgreen)](#understanding-the-results)
 
@@ -45,18 +44,27 @@ We measure 4 parts of each flower in centimeters (cm).
 
 > **Fun Fact:** Petal measurements alone provide **86%** of the information needed to identify the flower!
 
----
+# 📊 Our Dataset
+Total Flowers: 150
+  - Setosa:     50 flowers 🌸
+  - Versicolor: 50 flowers 🌺
+  - Virginica:  50 flowers 🌻
+
+Features: 4 measurements per flower
+Quality: Perfect! (No missing data)
+
+## Example flower:
+Sepal Length: 5.1 cm
+Sepal Width:  3.5 cm
+Petal Length: 1.4 cm  ← Small petal!
+Petal Width:  0.2 cm  ← Small petal!
+→ This is a Setosa! 🌸
 
 ## 🚀 Quick Start (5 Easy Steps)
 
 ### Step 1: Download Everything
 
-```bash
-# Create a folder for your project and navigate into it
-mkdir iris-project
-cd iris-project
-
-# 🌸 Iris Flower Classification Project
+## 🌸 Iris Flower Classification Project
 A Beginner-Friendly Machine Learning Project
 https://imgs.search.brave.com/XjsPfAlX0oWKWE1bweJLpkS0RY_7V4qoIFz2wf1iGlE/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5saWNkbi5jb20v/ZG1zL2ltYWdlL0M1/MTEyQVFHNFJGNVYx/c2xqZUEvYXJ0aWNs/ZS1jb3Zlcl9pbWFn/ZS1zaHJpbmtfNjAw/XzIwMDAvMC8xNTM4/MzMzNTU5NjMwP2U9/MjE0NzQ4MzY0NyZ2/PWJldGEmdD1WbmFS/SVNlNUQwNXpvNTVR/enNCZmU1Wm0ybEh1/VWxiNGNVUEJ1RWl4/T1Vz
 
