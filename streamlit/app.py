@@ -54,7 +54,13 @@ div[data-baseweb="slider"] span {
 """, unsafe_allow_html=True)
 
 # ------------------- LOAD MODEL -------------------
-with open("iris_svm_model.pkl", "rb") as f:
+import os
+import pickle
+
+BASE_DIR = os.path.dirname(__file__)  # Path to folder where app.py is
+MODEL_PATH = os.path.join(BASE_DIR, "iris_svm_model.pkl")
+
+with open(MODEL_PATH, "rb") as f:
     data = pickle.load(f)
 
 model = data['model']
