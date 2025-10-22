@@ -54,6 +54,7 @@ Features: 4 measurements per flower
 Quality: Perfect! (No missing data)
 
 ### Example flower:
+```bash
    Sepal Length: 5.1 cm
    Sepal Width:  3.5 cm
    Petal Length: 1.4 cm  ← Small petal!
@@ -64,57 +65,7 @@ Quality: Perfect! (No missing data)
 
 ### Step 1: Download Everything
 
-## 🌸 Iris Flower Classification Project
-A Beginner-Friendly Machine Learning Project
-https://imgs.search.brave.com/XjsPfAlX0oWKWE1bweJLpkS0RY_7V4qoIFz2wf1iGlE/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5saWNkbi5jb20v/ZG1zL2ltYWdlL0M1/MTEyQVFHNFJGNVYx/c2xqZUEvYXJ0aWNs/ZS1jb3Zlcl9pbWFn/ZS1zaHJpbmtfNjAw/XzIwMDAvMC8xNTM4/MzMzNTU5NjMwP2U9/MjE0NzQ4MzY0NyZ2/PWJldGEmdD1WbmFS/SVNlNUQwNXpvNTVR/enNCZmU1Wm0ybEh1/VWxiNGNVUEJ1RWl4/T1Vz
-
-📖 What is This Project?
-This project teaches computers to identify different types of Iris flowers by looking at their measurements - just like how you can identify a person by their height and weight!
-Simple Example:
-
-If a flower has very small petals → It's probably Setosa
-If it has medium petals → It's probably Versicolor
-If it has large petals → It's probably Virginica
-
-The computer learns these patterns automatically from examples!
-
-🎯 What Will You Learn?
-✅ How to analyze data (like a detective!)
-✅ How to train a computer to recognize patterns
-✅ How to compare different learning methods
-✅ How to visualize data with colorful charts
-✅ How to build a complete ML project from scratch
-No prior experience needed! Everything is explained step-by-step.
-
-🌺 About the Iris Flowers
-We're working with 3 types of Iris flowers:
-FlowerSizeEasy to Identify?🌸 SetosaSmall petals✅ Very easy! (100% accurate)🌺 VersicolorMedium petals✅ Pretty easy!🌻 VirginicaLarge petals✅ Pretty easy!
-What We Measure:
-We measure 4 parts of each flower (in centimeters):
-
-Sepal Length - The green leaf-like part
-Sepal Width - How wide that green part is
-Petal Length - The colorful flower part ⭐ (Most important!)
-Petal Width - How wide the colorful part is ⭐ (Most important!)
-
-
-💡 Fun Fact: Petal measurements are 86% of what helps identify the flower!
-
-
-📊 Our Dataset
-Total Flowers: 150
-  - Setosa:     50 flowers 🌸
-  - Versicolor: 50 flowers 🌺
-  - Virginica:  50 flowers 🌻
-
-Features: 4 measurements per flower
-Quality: Perfect! (No missing data)
-Example flower:
-Sepal Length: 5.1 cm
-Sepal Width:  3.5 cm
-Petal Length: 1.4 cm  ← Small petal!
-Petal Width:  0.2 cm  ← Small petal!
-→ This is a Setosa! 🌸
+## 🌸 Iris Flower    
 
 🚀 Quick Start (5 Easy Steps!)
 Step 1: Download Everything
