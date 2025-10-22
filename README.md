@@ -135,7 +135,11 @@ Iris-Model/
 ✅ Virginica:  10 out of 10 correct (100%)
 ```
 ### How Good is This?
-<img width="794" height="136" alt="Screenshot 2025-10-22 165003" src="https://github.com/user-attachments/assets/ef6ee1ed-1b77-4f2e-b09e-3bb73fc214f2" />
+| Method | How It Works | Accuracy |
+| :--- | :--- | :--- |
+| **👀 Human Expert** | Looks at flowers | 95-98% |
+| **🤖 Our Computer** | Measures numbers | 100% |
+
 Our computer is as good as (or better than) human experts!
 
 🎨 Visualizations Explained
