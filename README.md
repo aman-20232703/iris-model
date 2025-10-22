@@ -75,40 +75,56 @@ cd iris-project
 pip install numpy pandas matplotlib seaborn scikit-learn
 ```
 #### What are these tools?
-numpy - For math calculations
-pandas - For working with data tables
-matplotlib - For creating charts
-seaborn - For making charts pretty
-scikit-learn - The machine learning tools
+- numpy - For math calculations
+- pandas - For working with data tables
+- matplotlib - For creating charts
+- seaborn - For making charts pretty
+- scikit-learn - The machine learning tools
 
-Step 3: Get the Code
-Copy these files from the chat into your iris-project folder:
+### Step 3: Get the Code
+- Copy these files from the chat into your **iris-project** folder:
+- **iris_classification.py** - The main program (most important!)
+- **iris_prediction_demo.py** - Shows how to predict new flowers
+- **iris_feature_importance.py** - Shows which measurements matter most
+- **iris_model_comparison.py** - Compares different methods
 
-iris_classification.py - The main program (most important!)
-iris_prediction_demo.py - Shows how to predict new flowers
-iris_feature_importance.py - Shows which measurements matter most
-iris_model_comparison.py - Compares different methods
-
-Step 4: Run the Program
-bash# Run the main analysis (takes 2-3 minutes)
+### Step 4: Run the Program
+```bash
+# Run the main analysis (takes 2-3 minutes)
 python iris_classification.py
-Step 5: Look at Results
-Check the visualizations folder for colorful charts! 🎨
+```
+### Step 5: Look at Results
+Check the **visualizations** folder for colorful charts! 🎨
 
-📁 Simple Project Structure
-iris-project/
+### 📁 Simple Project Structure
+```bash
+Iris-Model/
 │
-├── 📄 iris_classification.py      ← START HERE! (Main program)
-├── 📄 iris_prediction_demo.py     ← Test predictions
-├── 📄 iris_feature_importance.py  ← See what matters
-├── 📄 iris_model_comparison.py    ← Compare methods
+├── data/                         # Dataset
+├── docs/                         # Docs
+│   ├── final_report.md            # Report
+│   └── presentation_slides.md    # Slides
 │
-└── 📁 visualizations/              ← Your charts appear here!
-    ├── 🖼️ feature_distributions.png
-    ├── 🖼️ boxplots.png
-    ├── 🖼️ correlation_heatmap.png
-    └── 🖼️ confusion_matrix.png
-
+├── src/                          # Scripts
+│   ├── iris_classification.py     # Training
+│   ├── iris_prediction_demo.py    # Demo
+│   ├── iris_feature_importance.py # Features
+│   └── iris_model_comparison.py  # Comparison
+│
+├── streamlit/                     # Webapp
+│   ├── app.py                     # Interface
+│   ├── iris_classification.py     # Training
+│   ├── iris_svm_model.pkl         # Model
+│   └── iris.csv                   # Dataset
+│
+├── visualizations/                # Charts
+├── .gitignore                     # Ignore
+├── iris_classification_report.txt # Report
+├── quick_start_guide.txt          # Guide
+├── README.md                      # README
+├── requirements.txt               # Dependencies
+└── setup_project.py               # Setup
+```
 🎓 Understanding the Results
 Our Best Score: 100% Accuracy! 🎉
 What does this mean?
