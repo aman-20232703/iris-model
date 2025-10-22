@@ -153,21 +153,21 @@ Our computer is as good as (or better than) human experts!
 
 ## Visualizations Explained
 ### 1. Feature Distributions
-<img width="2000" height="2000" alt="iris_feature_distributions" src="https://github.com/user-attachments/assets/ddaa7850-c3d6-40f7-ba08-3793acbe8a98" />
+<img width="800" height="800" alt="iris_feature_distributions" src="https://github.com/user-attachments/assets/ddaa7850-c3d6-40f7-ba08-3793acbe8a98" />
 
 **What it shows:** How measurements differ between flower types
 
 **What to look for:** Do the colors separate nicely? (They should!)
 
 ### 2. Box Plots
-<img width="900" height="900" alt="iris_boxplots" src="https://github.com/user-attachments/assets/0456d0f5-687d-4650-b1cf-544b02acdef3" />
+<img width="800" height="800" alt="iris_boxplots" src="https://github.com/user-attachments/assets/0456d0f5-687d-4650-b1cf-544b02acdef3" />
 
 **What it shows:** The range of measurements for each flower type
 
 **What to look for:** Are the boxes at different heights? (Good separation!)
 
 ### 3. Correlation Heatmap
-<img width="2572" height="2367" alt="iris_correlation_heatmap" src="https://github.com/user-attachments/assets/404bd45b-dfb0-4f7a-abaa-56008edfd793" />
+<img width="800" height="800" alt="iris_correlation_heatmap" src="https://github.com/user-attachments/assets/404bd45b-dfb0-4f7a-abaa-56008edfd793" />
 
 
 **What it shows:** Which measurements are related to each other
@@ -175,7 +175,7 @@ Our computer is as good as (or better than) human experts!
 **What to look for:** Bright colors = strongly related
 
 ### 4. Confusion Matrix
-<img width="2725" height="2363" alt="iris_confusion_matrix" src="https://github.com/user-attachments/assets/26e1bec0-8910-4415-9311-0b01120b3e32" />
+<img width="800" height="800" alt="iris_confusion_matrix" src="https://github.com/user-attachments/assets/26e1bec0-8910-4415-9311-0b01120b3e32" />
 
 
 **What it shows:** How many flowers we got right vs wrong
@@ -183,7 +183,7 @@ Our computer is as good as (or better than) human experts!
 **What to look for:** Big numbers on the diagonal = good! (All correct predictions)
 
 ### 5.pairplot
-<img width="4120" height="3818" alt="iris_pairplot" src="https://github.com/user-attachments/assets/3f0d0fc1-b70a-4a9e-a917-08c7650e4864" />
+<img width="800" height="800" alt="iris_pairplot" src="https://github.com/user-attachments/assets/3f0d0fc1-b70a-4a9e-a917-08c7650e4864" />
 
 **What it shows:** Relationships between every pair of numerical features in your dataset using scatter plots.
 
