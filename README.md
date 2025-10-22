@@ -325,12 +325,16 @@ petal_width = 1.7 cm   ← Right on the edge
 ### Common Questions (FAQ)
  **Q1: "I'm a complete beginner. Can I do this?"**
 A: YES! This project is designed for beginners. Just follow the steps in order.
+
 **Q2: "Why is the accuracy so high (100%)?"**
 A: The iris flowers are very different from each other, making them easy to identify. Think of it like identifying cats vs dogs vs birds - they're quite different!
+
 **Q3: "How long does it take to run?"**
 A: About 2-3 minutes on any computer.
+
 **Q4: "Do I need a powerful computer?"**
 A: No! This works on any laptop or desktop. Even old computers work fine.
+
 **Q5: "What if I get errors?"**
 A: Check these:
 * Python 3.8 or higher installed? (python --version)
@@ -340,9 +344,9 @@ A: Check these:
 
 **Q6: "Can I use this for other flowers?"**
 A: The code structure works for any classification problem! You'd need new data and to retrain the model.
+
 **Q7: "Is this useful in real life?"**
 A: Yes! Same techniques are used for:
-
 ** Medical diagnosis
 ** Email spam detection
 ** Movie recommendations
