@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 
 # Load everything back
-with open("../iris_svm_model.pkl", "rb") as f:
+with open("iris_svm_model.pkl", "rb") as f:
     data = pickle.load(f)
 
 model = data['model']
