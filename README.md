@@ -153,7 +153,8 @@ Our computer is as good as (or better than) human experts!
 
 ## Visualizations Explained
 ### 1. Feature Distributions
-<img width="800" height="800" alt="iris_feature_distributions" src="https://github.com/user-attachments/assets/ddaa7850-c3d6-40f7-ba08-3793acbe8a98" />
+<img width="800" height="800" alt="iris_feature_distributions" src="https://github.com/user-attachments/assets/4c9f6a00-3db5-4111-9bb2-d661481e694a" />
+
 
 **What it shows:** How measurements differ between flower types
 
@@ -327,7 +328,7 @@ Petal Width:	0.6
 **Model Output:** Setosa
 
 🪷 Predicted Flower Species: Iris Setosa
-<img width="765" height="729" alt="Screenshot 2025-10-23 000350" src="https://github.com/user-attachments/assets/37b0d660-d23b-4011-aa1b-7fce7fa28bdd" />
+<img width="500" height="500" alt="Screenshot 2025-10-23 000350" src="https://github.com/user-attachments/assets/37b0d660-d23b-4011-aa1b-7fce7fa28bdd" />
 
 
 ### example2
@@ -340,7 +341,7 @@ Petal Length:	5.6
 Petal Width:	1.9
 ```
 **Model Output:** Virginica
-<img width="761" height="727" alt="Screenshot 2025-10-23 000325" src="https://github.com/user-attachments/assets/5a07ae1a-ddd5-4435-ab8a-bb3cdbf7104e" />
+<img width="500" height="500" alt="Screenshot 2025-10-23 000325" src="https://github.com/user-attachments/assets/5a07ae1a-ddd5-4435-ab8a-bb3cdbf7104e" />
 >
 
 ### example3
@@ -353,7 +354,7 @@ Petal Length:	4.2
 Petal Width:	1.3
 ```
 **Model Output:** Versicolor
-<img width="868" height="687" alt="Screenshot 2025-10-23 000305" src="https://github.com/user-attachments/assets/416b09e9-0c30-4f48-93d9-97b1c8aff61a" />
+<img width="500" height="500" alt="Screenshot 2025-10-23 000305" src="https://github.com/user-attachments/assets/416b09e9-0c30-4f48-93d9-97b1c8aff61a" />
 
 
 ---
