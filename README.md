@@ -44,12 +44,13 @@ We measure 4 parts of each flower in centimeters (cm).
 
 > **Fun Fact:** Petal measurements alone provide **86%** of the information needed to identify the flower!
 
-## 📊 Our Dataset
+### 📊 Our Dataset
 Total Flowers: 150
+```bash
   - Setosa:     50 flowers 🌸
   - Versicolor: 50 flowers 🌺
   - Virginica:  50 flowers 🌻
-
+```
 Features: 4 measurements per flower
 Quality: Perfect! (No missing data)
 
@@ -61,22 +62,19 @@ Quality: Perfect! (No missing data)
    Petal Width:  0.2 cm  ← Small petal!
 → This is a Setosa! 🌸
 ```
-## 🚀 Quick Start (5 Easy Steps)
-
+## 🚀 Quick Start (5 Easy Steps!)
 ### Step 1: Download Everything
-
-## 🌸 Iris Flower    
-
-🚀 Quick Start (5 Easy Steps!)
-Step 1: Download Everything
-bash# Create a folder for your project
+```bash
+# Create a folder for your project
 mkdir iris-project
 cd iris-project
-Step 2: Install Python Tools
-bash# Install the tools we need (only do this once!)
+```
+### Step 2: Install Python Tools
+```bash
+# Install the tools we need (only do this once!)
 pip install numpy pandas matplotlib seaborn scikit-learn
-What are these tools?
-
+```
+#### What are these tools?
 numpy - For math calculations
 pandas - For working with data tables
 matplotlib - For creating charts
