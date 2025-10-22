@@ -8,6 +8,7 @@ with open("iris_svm_model.pkl", "rb") as f:
 
 model = data['model']
 scaler = data['scaler']
+
 encoder = data['encoder']
 
 st.title("🌸 Iris Flower Prediction (SVM Model)")
