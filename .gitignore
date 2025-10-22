@@ -38,7 +38,4 @@ wheels/
 Thumbs.db
 
 # Project specific
-models/*.pkl
-models/*.joblib
-visualizations/*.png
-data/*.csv
+
