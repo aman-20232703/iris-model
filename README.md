@@ -12,8 +12,7 @@
 ## Project Overview
 This project's goal is to teach a computer to identify different types of **Iris flowers** by analyzing their physical measurements, a classic introductory task in machine learning (ML).
 
-[<img width="519" height="214" alt="Screenshot 2025-10-22 181428" src="https://github.com/user-attachments/assets/9a59c86e-7e2e-4440-b813-3bc193f7703f" />
-](https://imgs.search.brave.com/1GtEZUGSvr-KpW3pC4HTKDKEMkJ3ySpbNjEpm6CX8zk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9rMy1w/cm9kdWN0aW9uLWJ1/Y2tldC5zMy5hbWF6/b25hd3MuY29tL3Vw/bG9hZHMvY0Q2Y2NL/S01KSlc4ckVOZmVf/NTE1MThpcmlzJTIw/aW1nMS5wbmc)
+<img width="519" height="214" alt="Screenshot 2025-10-22 181428" src="https://github.com/user-attachments/assets/b4dda28e-3c5c-4b52-ab1e-63f7622961e9" />
 
 It uses simple logic: if a flower has a very **small petal**, it's likely a **Setosa**; if it has a **large petal**, it's likely a **Virginica**. The computer automatically learns these patterns from examples to make predictions.
 
@@ -161,27 +160,30 @@ Our computer is as good as (or better than) human experts!
 **What to look for:** Do the colors separate nicely? (They should!)
 
 ### 2. Box Plots
-<img width="4170" height="2947" alt="iris_boxplots" src="https://github.com/user-attachments/assets/fd0efe45-b0e7-47a0-8f47-15d8a9e5c125" />
+<img width="4170" height="2947" alt="iris_boxplots" src="https://github.com/user-attachments/assets/0456d0f5-687d-4650-b1cf-544b02acdef3" />
+
 **What it shows:** The range of measurements for each flower type
 
 **What to look for:** Are the boxes at different heights? (Good separation!)
 
 ### 3. Correlation Heatmap
-<img width="2572" height="2367" alt="iris_correlation_heatmap" src="https://github.com/user-attachments/assets/debe8202-29d1-4d0e-a400-13054142b0cf" />
+<img width="2572" height="2367" alt="iris_correlation_heatmap" src="https://github.com/user-attachments/assets/404bd45b-dfb0-4f7a-abaa-56008edfd793" />
+
 
 **What it shows:** Which measurements are related to each other
 
 **What to look for:** Bright colors = strongly related
 
 ### 4. Confusion Matrix
-<img width="2725" height="2363" alt="iris_confusion_matrix" src="https://github.com/user-attachments/assets/15a2183b-d73c-441b-afc9-7b481f2c3f59" />
+<img width="2725" height="2363" alt="iris_confusion_matrix" src="https://github.com/user-attachments/assets/26e1bec0-8910-4415-9311-0b01120b3e32" />
+
 
 **What it shows:** How many flowers we got right vs wrong
 
 **What to look for:** Big numbers on the diagonal = good! (All correct predictions)
 
 ### 5.pairplot
-<img width="4120" height="3818" alt="iris_pairplot" src="https://github.com/user-attachments/assets/56f9c321-8e53-42e3-9e41-042983f1fb9a" />
+<img width="4120" height="3818" alt="iris_pairplot" src="https://github.com/user-attachments/assets/3f0d0fc1-b70a-4a9e-a917-08c7650e4864" />
 
 **What it shows:** Relationships between every pair of numerical features in your dataset using scatter plots.
 
@@ -317,39 +319,42 @@ petal_width = 1.7 cm   ← Right on the edge
 **Input Values (User Provided in Streamlit App):**
 ```bash
 Feature	Value (cm)
-Sepal Length:	5.0
-Sepal Width:	3.8
-Petal Length:	1.9
-Petal Width:	0.4
+Sepal Length:	4.6
+Sepal Width:	2.4
+Petal Length:	1.5
+Petal Width:	0.6
 ```
-**Model Output:**
+**Model Output:** Setosa
 
 🪷 Predicted Flower Species: Iris Setosa
-<img width="944" height="793" alt="Screenshot 2025-10-22 145809" src="https://github.com/user-attachments/assets/cf33dec5-8bad-494d-a16b-f9841da5d90b" />
+<img width="765" height="729" alt="Screenshot 2025-10-23 000350" src="https://github.com/user-attachments/assets/37b0d660-d23b-4011-aa1b-7fce7fa28bdd" />
+
 
 ### example2
 **Input Values (User Provided in Streamlit App):**
 ```bash
 Feature	Value: (cm)
-Sepal Length:	6.10
-Sepal Width:	2.83
-Petal Length:	4.05
-Petal Width:	1.32
+Sepal Length:	7.8
+Sepal Width:	2.4
+Petal Length:	5.6
+Petal Width:	1.9
 ```
-**Model Output:**
-<img width="953" height="730" alt="Screenshot 2025-10-22 150012" src="https://github.com/user-attachments/assets/fb7c9bd3-e668-4de8-b54a-4af19b931f96" />
+**Model Output:** Virginica
+<img width="761" height="727" alt="Screenshot 2025-10-23 000325" src="https://github.com/user-attachments/assets/5a07ae1a-ddd5-4435-ab8a-bb3cdbf7104e" />
+>
 
 ### example3
 **Input Values (User Provided in Streamlit App):**
 ```bash
 Feature	Value: (cm)
-Sepal Length:	5.95
-Sepal Width:	3.05
-Petal Length:	5.13
-Petal Width:	1.88
+Sepal Length:	5.8
+Sepal Width:	3.0
+Petal Length:	4.2
+Petal Width:	1.3
 ```
-**Model Output:**
-<img width="999" height="730" alt="Screenshot 2025-10-22 150133" src="https://github.com/user-attachments/assets/fac90a7c-2dff-4f49-be89-21fefe7e8de5" />
+**Model Output:** Versicolor
+<img width="868" height="687" alt="Screenshot 2025-10-23 000305" src="https://github.com/user-attachments/assets/416b09e9-0c30-4f48-93d9-97b1c8aff61a" />
+
 
 ---
 
