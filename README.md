@@ -12,8 +12,8 @@
 ## Project Overview
 This project's goal is to teach a computer to identify different types of **Iris flowers** by analyzing their physical measurements, a classic introductory task in machine learning (ML).
 
-<img width="519" height="214" alt="Screenshot 2025-10-22 181428" src="https://github.com/user-attachments/assets/9a59c86e-7e2e-4440-b813-3bc193f7703f" />
-
+[<img width="519" height="214" alt="Screenshot 2025-10-22 181428" src="https://github.com/user-attachments/assets/9a59c86e-7e2e-4440-b813-3bc193f7703f" />
+](https://imgs.search.brave.com/1GtEZUGSvr-KpW3pC4HTKDKEMkJ3ySpbNjEpm6CX8zk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9rMy1w/cm9kdWN0aW9uLWJ1/Y2tldC5zMy5hbWF6/b25hd3MuY29tL3Vw/bG9hZHMvY0Q2Y2NL/S01KSlc4ckVOZmVf/NTE1MThpcmlzJTIw/aW1nMS5wbmc)
 
 It uses simple logic: if a flower has a very **small petal**, it's likely a **Setosa**; if it has a **large petal**, it's likely a **Virginica**. The computer automatically learns these patterns from examples to make predictions.
 
