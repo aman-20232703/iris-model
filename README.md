@@ -65,22 +65,22 @@ Quality: Perfect! (No missing data)
 ```
 ##  Quick Start (5 Easy Steps!)
 ### Step 1: Download Everything
-```bash
+```python
 # Create a folder for your project
 mkdir iris-project
 cd iris-project
 ```
 ### Step 2: Install Python Tools
-```bash
+```python
 # Install the tools we need (only do this once!)
 pip install numpy pandas matplotlib seaborn scikit-learn
 ```
 #### What are these tools?
-- numpy - For math calculations
-- pandas - For working with data tables
-- matplotlib - For creating charts
-- seaborn - For making charts pretty
-- scikit-learn - The machine learning tools
+- **numpy** - For math calculations
+- **pandas** - For working with data tables
+- **matplotlib** - For creating charts
+- **seaborn** - For making charts pretty
+- **scikit-learn** - The machine learning tools
 
 ### Step 3: Get the Code
 - Copy these files from the chat into your **iris-project** folder:
@@ -90,7 +90,7 @@ pip install numpy pandas matplotlib seaborn scikit-learn
 - **iris_model_comparison.py** - Compares different methods
 
 ### Step 4: Run the Program
-```bash
+```python
 # Run the main analysis (takes 2-3 minutes)
 python iris_classification.py
 ```
@@ -98,7 +98,7 @@ python iris_classification.py
 Check the **visualizations** folder for colorful charts!
 
 ###  Simple Project Structure
-```bash
+```python
 Iris-Model/
 │
 ├── data/                         # Dataset
@@ -144,25 +144,38 @@ Our computer is as good as (or better than) human experts!
 
 ## 🎨 Visualizations Explained
 ### 1. Feature Distributions
-Show Image
+<img width="4168" height="2953" alt="iris_feature_distributions" src="https://github.com/user-attachments/assets/ddaa7850-c3d6-40f7-ba08-3793acbe8a98" />
+
 **What it shows:** How measurements differ between flower types
 
 **What to look for:** Do the colors separate nicely? (They should!)
+
 ### 2. Box Plots
-Show Image
+<img width="4170" height="2947" alt="iris_boxplots" src="https://github.com/user-attachments/assets/fd0efe45-b0e7-47a0-8f47-15d8a9e5c125" />
 **What it shows:** The range of measurements for each flower type
 
 **What to look for:** Are the boxes at different heights? (Good separation!)
+
 ### 3. Correlation Heatmap
-Show Image
+<img width="2572" height="2367" alt="iris_correlation_heatmap" src="https://github.com/user-attachments/assets/debe8202-29d1-4d0e-a400-13054142b0cf" />
+
 **What it shows:** Which measurements are related to each other
 
 **What to look for:** Bright colors = strongly related
+
 ### 4. Confusion Matrix
-Show Image
+<img width="2725" height="2363" alt="iris_confusion_matrix" src="https://github.com/user-attachments/assets/15a2183b-d73c-441b-afc9-7b481f2c3f59" />
+
 **What it shows:** How many flowers we got right vs wrong
 
 **What to look for:** Big numbers on the diagonal = good! (All correct predictions)
+
+### 5.pairplot
+<img width="4120" height="3818" alt="iris_pairplot" src="https://github.com/user-attachments/assets/56f9c321-8e53-42e3-9e41-042983f1fb9a" />
+
+**What it shows:** Relationships between every pair of numerical features in your dataset using scatter plots.
+
+**What to look for:** The features can easily distinguish between flower types (good for classification).
 
 ## 🧠 The 5 Methods We Tested
 We tried **5 different ways** to teach the computer. Here's how they work:
