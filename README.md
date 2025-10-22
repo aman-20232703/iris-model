@@ -168,7 +168,7 @@ Our computer is as good as (or better than) human experts!
 **What to look for:** Are the boxes at different heights? (Good separation!)
 
 ### 3. Correlation Heatmap
-<img width="800" height="800" alt="iris_correlation_heatmap" src="https://github.com/user-attachments/assets/404bd45b-dfb0-4f7a-abaa-56008edfd793" />
+<img width="600" height="600" alt="iris_correlation_heatmap" src="https://github.com/user-attachments/assets/404bd45b-dfb0-4f7a-abaa-56008edfd793" />
 
 
 **What it shows:** Which measurements are related to each other
@@ -176,7 +176,7 @@ Our computer is as good as (or better than) human experts!
 **What to look for:** Bright colors = strongly related
 
 ### 4. Confusion Matrix
-<img width="800" height="800" alt="iris_confusion_matrix" src="https://github.com/user-attachments/assets/26e1bec0-8910-4415-9311-0b01120b3e32" />
+<img width="600" height="600" alt="iris_confusion_matrix" src="https://github.com/user-attachments/assets/26e1bec0-8910-4415-9311-0b01120b3e32" />
 
 
 **What it shows:** How many flowers we got right vs wrong
