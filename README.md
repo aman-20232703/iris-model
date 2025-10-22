@@ -552,32 +552,27 @@ Congratulations on completing this machine learning project!
 
 ## Contact & Credits
 **Project Creator:** Aman Kumar
+
 **Email:** kumaraman21062005@gmail.com
+
 **LinkedIn**: Aman Kumar
+
 **GitHub:** github.com/aman-20232703
 
 ### Credits:
+
 R.A. Fisher (1936) - Original iris dataset research
 UCI Machine Learning Repository - Dataset hosting
 Scikit-learn Team - Amazing ML tools
 Python Community - Open-source tools
+
  --- 
  
 # 🌈 Final Words
 **Remember:** Every expert was once a beginner!
 This project might seem complex at first, but:
-
 Take it one step at a time
 Don't rush
 It's okay to not understand everything immediately
 Practice makes perfect
-Have fun! 🎉
-
-Machine Learning is not magic - it's math, logic, and lots of examples!
-Good luck, and happy coding! 🌸🤖
-
-<div align="center">
-⭐ If this helped you, give it a star! ⭐
-Made with ❤️ for beginners learning Machine Learning
-⬆ Back to Top
-</div>
+Have fun! 
