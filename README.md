@@ -153,7 +153,7 @@ Our computer is as good as (or better than) human experts!
 
 ## Visualizations Explained
 ### 1. Feature Distributions
-<img width="4168" height="2953" alt="iris_feature_distributions" src="https://github.com/user-attachments/assets/ddaa7850-c3d6-40f7-ba08-3793acbe8a98" />
+<imgwidth="519" height="514" alt="iris_feature_distributions" src="https://github.com/user-attachments/assets/ddaa7850-c3d6-40f7-ba08-3793acbe8a98" />
 
 **What it shows:** How measurements differ between flower types
 
