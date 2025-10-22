@@ -142,70 +142,78 @@ Iris-Model/
 
 Our computer is as good as (or better than) human experts!
 
-🎨 Visualizations Explained
-1. Feature Distributions
+## 🎨 Visualizations Explained
+### 1. Feature Distributions
 Show Image
-What it shows: How measurements differ between flower types
-What to look for: Do the colors separate nicely? (They should!)
-2. Box Plots
+**What it shows:** How measurements differ between flower types
+**What to look for:** Do the colors separate nicely? (They should!)
+### 2. Box Plots
 Show Image
-What it shows: The range of measurements for each flower type
-What to look for: Are the boxes at different heights? (Good separation!)
-3. Correlation Heatmap
+**What it shows:** The range of measurements for each flower type
+**What to look for:** Are the boxes at different heights? (Good separation!)
+### 3. Correlation Heatmap
 Show Image
-What it shows: Which measurements are related to each other
-What to look for: Bright colors = strongly related
-4. Confusion Matrix
+**What it shows:** Which measurements are related to each other
+**What to look for:** Bright colors = strongly related
+### 4. Confusion Matrix
 Show Image
-What it shows: How many flowers we got right vs wrong
-What to look for: Big numbers on the diagonal = good! (All correct predictions)
+**What it shows:** How many flowers we got right vs wrong
+**What to look for:** Big numbers on the diagonal = good! (All correct predictions)
 
-🧠 The 5 Methods We Tested
-We tried 5 different ways to teach the computer. Here's how they work:
-1. K-Nearest Neighbors (KNN) 👥
-How it works: "Show me the 3 most similar flowers I've seen before"
-Example:
+## 🧠 The 5 Methods We Tested
+We tried **5 different ways** to teach the computer. Here's how they work:
+### 1. K-Nearest Neighbors (KNN) 👥
+**How it works:** "Show me the 3 most similar flowers I've seen before"
+#### Example:
+```bash
 New flower: 5.1cm petal length
 Look at 3 nearest flowers in memory:
   - Flower A: Setosa (4.9cm)
   - Flower B: Setosa (5.0cm)  
   - Flower C: Setosa (5.2cm)
 Vote: 3 Setosa, 0 others → Predict: Setosa ✓
-Result: 97-100% accuracy ⭐
+```
+**Result:** 97-100% accuracy ⭐
 
-2. Decision Tree 🌳
-How it works: "Ask yes/no questions until you know the answer"
-Example:
+### 2. Decision Tree 🌳
+**How it works:** "Ask yes/no questions until you know the answer"
+#### Example:
+```bash
 Is petal length < 2.5cm?
 ├─ YES → Setosa 🌸
 └─ NO → Is petal width < 1.7cm?
     ├─ YES → Versicolor 🌺
     └─ NO → Virginica 🌻
-Result: 93-97% accuracy
+```
+**Result:** 93-97% accuracy
 
-3. Random Forest 🌲🌲🌲
-How it works: "Create 100 decision trees and let them vote"
-Example:
+### 3. Random Forest 🌲🌲🌲
+**How it works:** "Create 100 decision trees and let them vote"
+#### Example:
+```bash
 Tree 1 says: Versicolor
 Tree 2 says: Versicolor
 Tree 3 says: Virginica
-Tree 4 says: Versicolor
+Tree 4 says: Versicolo
 ...
 Final vote: 73 Versicolor, 27 Virginica
 → Predict: Versicolor ✓
-Result: 97-100% accuracy ⭐⭐
+```
+**Result:** 97-100% accuracy ⭐⭐
 
-4. Support Vector Machine (SVM) 🎯
-How it works: "Draw the best line between flower types"
-Visual:
+### 4. Support Vector Machine (SVM) 🎯
+**How it works:** "Draw the best line between flower types"
+#### Visual
+``bash
 Setosa    |    Versicolor    |    Virginica
 🌸 🌸 🌸   |   🌺 🌺 🌺      |   🌻 🌻 🌻
   🌸 🌸    |  🌺 🌺 🌺 🌺   |  🌻 🌻 🌻 🌻
      ↑           ↑                 ↑
-  boundary    boundary         boundary
-Result: 97-100% accuracy ⭐⭐⭐ (BEST!)
+  boundary    boundary         boundary 
+```
+**Result:** "97-100% accuracy ⭐⭐⭐ (BEST!)"
 
-5. Logistic Regression 📊
+### 5. Logistic Regression 📊
 How it works: "Calculate probability for each flower type"
 Example:
 New flower measurements entered...
