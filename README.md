@@ -1,9 +1,6 @@
-🌸 Iris Flower Classification Project
+# 🌸 Iris Flower Classification Project
 A Beginner-Friendly Machine Learning Project
-Show Image
-Show Image
-Show Image
-Show Image
+https://imgs.search.brave.com/XjsPfAlX0oWKWE1bweJLpkS0RY_7V4qoIFz2wf1iGlE/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5saWNkbi5jb20v/ZG1zL2ltYWdlL0M1/MTEyQVFHNFJGNVYx/c2xqZUEvYXJ0aWNs/ZS1jb3Zlcl9pbWFn/ZS1zaHJpbmtfNjAw/XzIwMDAvMC8xNTM4/MzMzNTU5NjMwP2U9/MjE0NzQ4MzY0NyZ2/PWJldGEmdD1WbmFS/SVNlNUQwNXpvNTVR/enNCZmU1Wm0ybEh1/VWxiNGNVUEJ1RWl4/T1Vz
 
 📖 What is This Project?
 This project teaches computers to identify different types of Iris flowers by looking at their measurements - just like how you can identify a person by their height and weight!
