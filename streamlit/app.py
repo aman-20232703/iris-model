@@ -57,15 +57,22 @@ div[data-baseweb="slider"] span {
 import os
 import pickle
 
-BASE_DIR = os.path.dirname(__file__)  # Path to folder where app.py is
+# Get the folder where this script (app.py) resides
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# Construct full path to the model
 MODEL_PATH = os.path.join(BASE_DIR, "iris_svm_model.pkl")
 
-with open(MODEL_PATH, "rb") as f:
-    data = pickle.load(f)
+# Load the model safely
+if not os.path.exists(MODEL_PATH):
+    st.error(f"Model file not found at: {MODEL_PATH}")
+else:
+    with open(MODEL_PATH, "rb") as f:
+        data = pickle.load(f)
 
-model = data['model']
-scaler = data['scaler']
-encoder = data['encoder']
+    model = data['model']
+    scaler = data['scaler']
+    encoder = data['encoder']
 
 # ------------------- HEADER -------------------
 st.title("🌸 Iris Flower Prediction (SVM Model)")
