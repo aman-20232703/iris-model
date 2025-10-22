@@ -207,8 +207,16 @@ deployment_objects = {
     'encoder': encoder
 }
 
-# ✅ Save all in one file
-with open("iris_svm_model.pkl", "wb") as f:
+import os
+import pickle
+
+folder = "streamlit"
+os.makedirs(folder, exist_ok=True)  # Make sure the folder exists
+
+file_path = os.path.join(folder, "iris_svm_model.pkl")
+
+with open(file_path, "wb") as f:
     pickle.dump(deployment_objects, f)
 
-print(f"\n* Successfully saved the BEST model ({best_model_name}), scaler, and encoder to iris_svm_model.pkl.")
+print(f"* Successfully saved to {file_path}")
+
