@@ -60,7 +60,7 @@ Quality: Perfect! (No missing data)
    Petal Length: 1.4 cm  ← Small petal!
    Petal Width:  0.2 cm  ← Small petal!
 → This is a Setosa! 🌸
-
+```
 ## 🚀 Quick Start (5 Easy Steps)
 
 ### Step 1: Download Everything
