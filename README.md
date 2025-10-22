@@ -44,7 +44,7 @@ We measure 4 parts of each flower in centimeters (cm).
 
 > **Fun Fact:** Petal measurements alone provide **86%** of the information needed to identify the flower!
 
-# 📊 Our Dataset
+## 📊 Our Dataset
 Total Flowers: 150
   - Setosa:     50 flowers 🌸
   - Versicolor: 50 flowers 🌺
@@ -53,11 +53,11 @@ Total Flowers: 150
 Features: 4 measurements per flower
 Quality: Perfect! (No missing data)
 
-## Example flower:
-Sepal Length: 5.1 cm
-Sepal Width:  3.5 cm
-Petal Length: 1.4 cm  ← Small petal!
-Petal Width:  0.2 cm  ← Small petal!
+### Example flower:
+- Sepal Length: 5.1 cm
+- Sepal Width:  3.5 cm
+- Petal Length: 1.4 cm  ← Small petal!
+- Petal Width:  0.2 cm  ← Small petal!
 → This is a Setosa! 🌸
 
 ## 🚀 Quick Start (5 Easy Steps)
