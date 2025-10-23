@@ -133,8 +133,8 @@ Iris-Model/
 ```
 ---
 
-## 🎓 Understanding the Results
-### Our Best Score: 100% Accuracy! 🎉
+## Understanding the Results
+### Our Best Score: 100% Accuracy! 
 **What does this mean?** Out of 30 test flowers, our computer correctly identified **ALL 30!**
 ```bash
 Setosa:     10 out of 10 correct (100%)
