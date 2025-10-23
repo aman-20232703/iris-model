@@ -327,7 +327,7 @@ Petal Width:	0.6
 ```
 **Model Output:** Setosa
 
-🪷 Predicted Flower Species: Iris Setosa
+Predicted Flower Species: Iris Setosa
 <img width="500" height="500" alt="Screenshot 2025-10-23 000350" src="https://github.com/user-attachments/assets/37b0d660-d23b-4011-aa1b-7fce7fa28bdd" />
 
 
@@ -359,7 +359,7 @@ Petal Width:	1.3
 
 ---
 
-### 📚 Step-by-Step: What the Code Does
+### Step-by-Step: What the Code Does
 #### Step 1: Load the Data 📥
 ```python
 # The computer loads 150 flower measurements
@@ -376,25 +376,25 @@ Petal Width:	1.3
 # Split into training (120 flowers) and testing (30 flowers)
 # Standardize measurements (make them comparable)
 ```
-#### Step 4: Train the Computer 🧠
+#### Step 4: Train the Computer
 ```python
 # Show the computer 120 flowers with labels
 # It learns: "Small petal = Setosa"
 # It learns: "Medium petal = Versicolor"
 # It learns: "Large petal = Virginica"
 ```
-#### Step 5: Test the Computer 🧪
+#### Step 5: Test the Computer
 ```python
 # Show 30 NEW flowers (computer hasn't seen these!)
 # Computer tries to identify them
 # We check if it's correct
 ```
-#### Step 6: Check Accuracy ✅
+#### Step 6: Check Accuracy
 ```python
 # Count correct predictions
 # Our result: 30 out of 30 correct = 100%!
 ```
-#### Step 7: Save Results 💾
+#### Step 7: Save Results
 ```python
 # Create report
 # Save visualizations
@@ -578,25 +578,25 @@ Average: 98.3% ← Very consistent!
 ---
 
 ### Why This Project is Special
-#### 1. Beginner-Friendly ✅
+#### 1. Beginner-Friendly
 - Clear explanations
 - Step-by-step instructions
 - No assumptions about prior knowledge
 - Lots of examples
 
-#### 2. Complete ✅
+#### 2. Complete
 - All 7 required project steps included
 - Professional documentation
 - Multiple visualizations
 - Ready for submission
 
-#### 3. Successful ✅
+#### 3. Successful
 - 100% accuracy achieved
 - Reliable results (98.3% CV)
 - Industry-standard methods
 - Publication-ready quality
 
-#### 4. Educational ✅
+#### 4. Educational
 
 - Learn by doing
 - Understand concepts deeply
@@ -663,7 +663,7 @@ Congratulations on completing this machine learning project!
 
  --- 
  
-# 🌈 Final Words
+# Final Words
 **Remember:** Every expert was once a beginner!
 This project might seem complex at first, but:
 Take it one step at a time
