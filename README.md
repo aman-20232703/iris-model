@@ -454,7 +454,7 @@ A: Yes! Same techniques are used for:
 - Using random_state=42 in code?
 - Applied feature scaling?
 - Using provided code exactly as written?
-- 
+  
 **Problem: "Program runs but no output files"**
   
 **Solution:** Check permissions. Try running as administrator (Windows) or with sudo (Mac/Linux).
@@ -652,8 +652,8 @@ Congratulations on completing this machine learning project!
 **GitHub:** github.com/aman-20232703
 
 
-#### Credits:
 
+#### Credits:
 **R.A. Fisher (1936)** - Original iris dataset research
 
 **UCI Machine Learning Repository** - Dataset hosting
