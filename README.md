@@ -643,7 +643,7 @@ Congratulations on completing this machine learning project!
 - Problem-solving 
 ---
 ### Contact & Credits
-#### Contact
+#### Contact:
 **Project Creator:** Aman Kumar
 
 **Email:** kumaraman21062005@gmail.com
