@@ -44,7 +44,6 @@ We measure 4 parts of each flower in centimeters (cm).
 
 > **Fun Fact:** Petal measurements alone provide **86%** of the information needed to identify the flower!
 
----
 
 ### 📊 Our Dataset
 Total Flowers: 150
